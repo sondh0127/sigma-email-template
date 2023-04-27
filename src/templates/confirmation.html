@@ -5,12 +5,13 @@ bodyClass: bg-gray-200
 
 <extends src="src/layouts/main.html">
   <block name="template">
-    <table class="w-full font-sans">
+    <table class="w-full font-sans mt-10">
       <tr>
         <td align="center" class="bg-gray-200 py-6">
           <table class="w-[600px] sm:w-full">
             <tr>
               <td class="text-center pb-6 sm:pb-3">
+                <component src="src/components/logo.html"></component>
                 <h1 class="font-semibold text-black text-2xl">Confirm your signup</h1>
               </td>
             </tr>
@@ -19,7 +20,7 @@ bodyClass: bg-gray-200
                 <table class="w-3/4 sm:w-full">
                   <tr>
                     <td class="bg-white p-12 sm:px-6 text-center">
-                      <p class="text-lg font-semibold m-0">Hey there,</p>
+                      <!-- <p class="text-lg font-semibold m-0 text-gray-900">Hey there,</p> -->
                       <p class="text-gray-700 text-base">Follow this link to confirm your account:</p>
                       <div class="leading-6 sm:h-8">&zwnj;</div>
                       <a
